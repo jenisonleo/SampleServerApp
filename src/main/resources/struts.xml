@@ -4,4 +4,10 @@
 
 <struts>
     <include file="struts-default.xml"/>
+    <package name="test" extends="struts-default">
+        <action name="*" class="Landing">
+            <result name="success">land.jsp</result>
+        </action>
+    </package>
+
 </struts>
