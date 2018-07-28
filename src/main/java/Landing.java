@@ -21,7 +21,7 @@ public class Landing implements Action {
 
 		if(name!=null && age!=null) {
 			System.out.println("wrote1");
-			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/mysql", "root", "Simon20120#");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/mysql", "root", "password");
 			if (connection == null) {
 				System.out.print("connection null");
 			} else {
